@@ -15,8 +15,11 @@ end
 
 
 def line(array)
-if array.length == 0 then
-puts puts"There is nobody waiting to be served!"
-else 
+    if array.length == 0 then
+    puts"There is nobody waiting to be served!"
+    else "The line is currently: "
+    array.each do |name|
+       puts " #{array.index(name) + 1}. #{name}"
+    end
 end
 end
