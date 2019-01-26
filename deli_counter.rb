@@ -22,7 +22,7 @@ string = "The line is currently: "
     
     else 
         array.each do |name|
-        string += "#{array.index(name) + 1}. #{name} "
+        string += " #{array.index(name) + 1}. #{name}"
                    end
       puts string
     end
