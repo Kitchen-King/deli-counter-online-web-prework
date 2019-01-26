@@ -18,7 +18,7 @@ def line(array)
 string = "The line is currently: "
     
     if array.length == 0 then
-    puts string += "empty."
+    puts "The line is currently empty."
     
     else 
         array.each do |name|
