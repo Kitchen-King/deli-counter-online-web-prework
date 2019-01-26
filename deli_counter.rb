@@ -18,8 +18,8 @@ def line(array)
     if array.length == 0 then
     puts"There is nobody waiting to be served!"
       else "The line is currently: "
-      array.each do |name|
+        array.each do |name|
          puts " #{array.index(name) + 1}. #{name}"
-      end
-end
+                   end
+    end
 end
