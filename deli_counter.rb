@@ -15,7 +15,7 @@ end
 
 
 def line(array)
-string = "The line is currently: "
+string = "The line is currently:"
     
     if array.length == 0 then
     puts "The line is currently empty."
