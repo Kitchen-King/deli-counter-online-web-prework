@@ -16,10 +16,7 @@ end
 
 def line(array)
 if array.length == 0 then
-puts "The line is currently: "
-array.each do |name|
-   puts " #{array.index(name) + 1}. #{name}"
-end
+puts 
 else puts"There is nobody waiting to be served!"
 end
 end
