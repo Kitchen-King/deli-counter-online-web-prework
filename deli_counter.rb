@@ -16,7 +16,7 @@ end
 
 def line(array)
 if array.length == 0 then
-puts 
-else puts"There is nobody waiting to be served!"
+puts puts"There is nobody waiting to be served!"
+else 
 end
 end
