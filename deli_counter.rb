@@ -25,5 +25,5 @@ string = "The line is currently: "
         string += "#{array.index(name) + 1}. #{name} "
                    end
     end
-  string
+  puts string
 end
