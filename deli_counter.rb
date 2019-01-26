@@ -13,6 +13,7 @@ def now_serving(array)
   array.delete_at(0)
 end
 
+
 def line(array)
 if array.length != 0 then
 puts "The line is currently: "
