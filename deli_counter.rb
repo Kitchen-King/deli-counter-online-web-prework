@@ -15,11 +15,15 @@ end
 
 
 def line(array)
+string = "The line is currently: "
+    
     if array.length == 0 then
-    puts"The line is currently empty."
-      else puts "The line is currently: "
+    puts string += "empty."
+    
+    else 
         array.each do |name|
-         puts " #{array.index(name) + 1}. #{name}"
+        string += "#{array.index(name) + 1}. #{name} "
                    end
     end
+  string
 end
